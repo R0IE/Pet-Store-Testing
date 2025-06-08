@@ -1,5 +1,13 @@
 {
+  "name": "petstore",
+  "main": "petstore.js",
   "dependencies": {
-    "supertest": "^7.1.1"
+    "supertest": "^7.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
